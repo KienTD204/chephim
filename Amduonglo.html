@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHÊ PHIM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ===font.awesome===================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script language="Javascript">
+        function addComment() {
+  const commentInput = document.getElementById("comment");
+  const commentList = document.getElementById("comment-list");
+  const commentText = commentInput.value.trim();
+
+  if (commentText === "") {
+    alert("Bạn chưa nhập nội dung bình luận!");
+    return;
+  }
+
+  const commentItem = document.createElement("div");
+  commentItem.className = "comment-item";
+  commentItem.textContent = commentText;
+
+  commentList.prepend(commentItem);
+
+  commentInput.value = "";
+}
+    </script>
+</head>
+<body>
+<header>
+    <a href="Trangchu.html">
+    <div class="logo">
+     <img src="Img/Logo001.jpg" alt="logo">
+     <div class="slogan">
+        <p>CHÊ PHIM</p>
+        <span>Xem xong phải chê – mới là đam mê!</span>
+     </div>
+    </div></a>
+    <div class="div-search-box">
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="search movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+          </form>
+    </div>
+    <div class="dn-dk">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i> Đăng ký</a></li>
+        </ul>
+    </div>
+</header>
+                                                                            
+<nav>
+    <ul class="submenu">
+        <li><a href="Trangchu.html">Trang chủ</a></li>
+        <li><a href="PhimViet.html">Phim Việt Nam</a></li>
+        <li><a href="Phimnuocngoai.html">Phim nước ngoài</a></li>
+        <li><a href="Vechungtoi.html">Về chúng tôi</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<!-- ===headreview============================================== -->
+ <section class="headreview">
+    <h3>Phim Việt</h3>
+    <p class="title">Âm Dương Lộ - Ma mị, lãng mạn và nhân văn</p>
+ </section>
+<div class="gachngang"></div>
+<section class="bodyreview">
+    <p class="doanvan">Âm Dương Lộ là tựa phim của đạo diễn Hoàng Tuấn Cường, lấy đề tài chính là tài xế lái xe cấp cứu - những anh hùng thầm lặng đưa bệnh nhân đến bệnh viện hoặc cũng có thể là đưa bệnh nhân trở về "gặp" người thân lần cuối.</p>
+    <img src="movie/Phim Việt Nam/Âm Dương Lộ/Hình 1.jpg" alt="" class="anh">
+    <p class="doanvan">Âm Dương Lộ kể về chàng trai trẻ tên Nhân do Bạch Công Khanh đóng. Thị trường lao động ngày một khắc nghiệt và anh thì không chịu được sự giả tạo trong môi trường công sở nên đành trở về làm lái xe cứu thương, đây cũng là nghề mà ba của Nhân đã từng làm nhưng vì một lý do nào đó ông không muốn con trai nối nghiệp mình.
+        Trong quá trình đưa xác một cô gái trẻ không may bị tai nạn giao thông về quê, Nhân gặp được Thụy Chi (Lan Thy đóng) và cả hai nảy sinh tình cảm. Cũng trong thời gian ấy, gia đình phát hiện ra và ngăn cản Nhân, không cho anh tiếp tục lái xe cứu thương. Sự giằng xé giữa việc giúp người và nghe lời cha đã khiến chàng cử nhân trẻ rơi vào bế tắc, cuộc sống đảo lộn hoàn toàn.
+        Theo Khen Phim thì Âm Dương Lộ là tựa phim kinh dị có nội dung chỉn chu nhất từ đầu năm đến nay, các tình tiết được giải quyết gọn gàng, đồng thời cho khán giả thấy rõ ràng ma trong phim là có thật nhưng vẫn dễ dàng vượt qua kiểm duyệt bởi câu chuyện nhân văn và không hề tuyên truyền mê tín dị đoan.
+        </p>
+    <img src="movie/Phim Việt Nam/Âm Dương Lộ/Hình 2.webp" alt="" class="anh">
+    <p class="doanvan">Nửa đầu phim pha trộn phong cách hài hước của một chuyến đi đường với kinh dị, sau đó chuyển sang lãng mạn – siêu nhiên ở nửa sau và kinh dị với yếu tố nghiệp báo ở phần cuối. Dĩ nhiên kịch bản không hoàn toàn mượt mà, nó vẫn có điểm khựng, một vài chi tiết rời rạc, một vài nhân vật được đưa vào để tấu hài hoặc hù dọa chứ không có đóng góp đáng kể cho mạch phim.</p>
+    <img src="movie/Phim Việt Nam/Âm Dương Lộ/Hình 3.webp" alt="" class="anh">
+    <p class="doanvan">Những thông điệp mang tính nhân văn cũng được lồng ghép khéo léo, như hình ảnh người nhà của thiếu nữ không may bị tai nạn khóc lóc cảm ơn tài xế xe cứu thương chẳng hạn; đây chính là yếu tố quan trọng giúp phim vượt qua được kiểm duyệt dù nội dung có ma thật, hoàn toàn không nằm mơ, không phải nghe kể lại.</p>
+    <img src="movie/Phim Việt Nam/Âm Dương Lộ/Hình 4.jpg" alt="" class="anh">
+    <p class="doanvan">Diễn xuất của Bạch Công Khanh và Lan Thy ở mức đủ tốt để khán giả cảm nhận được câu chuyện tình giữa họ. Phim có sử dụng nhiều cảnh quay cận mặt để lột tả hết được cảm xúc nhân vật và may mắn là cả hai diễn viên chính đều để lại ấn tượng tốt. Dàn diễn viên phụ của phim bao gồm Đại Nghĩa, Tuấn Dũng, Minh Hoàng, NSƯT Hạnh Thúy, NSƯT Lê Thiện và Hoàng Yến; tuy nhiên chỉ có Tuấn Dũng là nổi bật khi có những tương tác hài hước với Bạch Công Khanh trong nửa đầu phim. Giọng nói "ấm ảnh" của anh cũng được nhắc đến như một yếu tố dẫn dắt câu chuyện.
+        Tóm lại thì Âm Dương Lộ là tựa phim chỉn chu về nội dung, cảnh quay và màu phim đẹp, có nhiều ma xuất hiện. Khán giả nhớ nán lại xem after credit nhé.
+        </p>
+</section>
+<section class="footreview">
+    <div class="phandau" >
+        <p class="tenphim">Âm Dương Lộ</p>
+        <div class="diemtong">
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <img src="movie/Phim Việt Nam/Âm Dương Lộ/Hình 1.jpg" alt="" class="poster">
+    </div>
+    <p class="thanhphan">Nội dung</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Diễn viên và diễn xuất</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Âm thanh, hình ảnh, kĩ xảo</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+</section>
+
+<div class="gachngang"></div>
+<section class="binhluan">
+    <h3>Bình luận</h3>
+    <div class="form">
+      <textarea placeholder="Viết bình luận..." id="comment"></textarea>
+      <button onclick="addComment()">Gửi bình luận</button>
+    </div>
+    <div id="comment-list" class="comment-list"></div>
+  </section>
+  
+</body>
+</html>

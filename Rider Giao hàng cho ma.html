@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHÊ PHIM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ===font.awesome===================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script language="Javascript">
+        function addComment() {
+  const commentInput = document.getElementById("comment");
+  const commentList = document.getElementById("comment-list");
+  const commentText = commentInput.value.trim();
+
+  if (commentText === "") {
+    alert("Bạn chưa nhập nội dung bình luận!");
+    return;
+  }
+  const commentItem = document.createElement("div");
+  commentItem.className = "comment-item";
+  commentItem.textContent = commentText;
+
+  commentList.prepend(commentItem); 
+
+  commentInput.value = "";
+}
+    </script>
+</head>
+<body>
+<header>
+    <a href="Trangchu.html">
+    <div class="logo">
+     <img src="Img/Logo001.jpg" alt="logo">
+     <div class="slogan">
+        <p>CHÊ PHIM</p>
+        <span>Xem xong phải chê – mới là đam mê!</span>
+     </div>
+    </div></a>
+    <div class="div-search-box">
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="search movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+          </form>
+    </div>
+    <div class="dn-dk">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i> Đăng ký</a></li>
+        </ul>
+    </div>
+</header>
+                                                                            
+<nav>
+    <ul class="submenu">
+        <li><a href="Trangchu.html">Trang chủ</a></li>
+        <li><a href="PhimViet.html">Phim Việt Nam</a></li>
+        <li><a href="Phimnuocngoai.html">Phim nước ngoài</a></li>
+        <li><a href="Vechungtoi.html">Về chúng tôi</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<!-- ===headreview============================================== -->
+ <section class="headreview">
+    <h3>Phim nước ngoài</h3>
+    <p class="title">“Rider: Giao Hàng Cho Ma” – Giao cả trái tim cho ma nữ</p>
+ </section>
+<div class="gachngang"></div>
+<section class="bodyreview">
+    <p class="doanvan">"Rider: Giao Hàng Cho Ma" (tựa gốc: ไรเดอร์) là bộ phim Thái Lan kết hợp giữa yếu tố hài hước, kinh dị và lãng mạn. Phim có sự góp mặt của dàn diễn viên trai xinh gái đẹp như Mario Maurer, Freen Sarocha và No Phuwanet Seechomphu. Nội dung xoay quanh một nhóm shipper giao hàng cho... ma, và hành trình "giải cứu" một hồn ma nữ xinh đẹp nhưng bị giam cầm.</p>
+    <h2>Nội dung</h2>
+    <p class="doanvan">Câu chuyện xoay quanh nhóm shipper của Nat (Mario Maurer đóng) trong lúc làm nghề thì gặp phải những đơn hàng do ma đặt nên đã đánh dấu những địa điểm có bóng hình kỳ quái không có xương chéo. Trong lần giao hàng nọ, Nat phát hiện ra Pai - linh hồn của một cô gái trẻ bị mẹ kế bỏ ấy giam giữ không cho siêu thoát. Thế là cả nhóm lên kế hoạch giải cứu ma nữ xinh đẹp.</p>
+    <img src="movie/nước ngoài/Rider-Giao Hàng Cho Ma/Hình 1.jpg" alt="" class="anh">
+    <p class="doanvan">Câu chuyện phim dạng người và ma gặp gỡ và có tình ý với nhau thì nó được khai thác quá nhiều rồi, không chỉ điện ảnh Thái Lan và cả ở các nước châu Âu, châu Mỹ cũng có nhiều tựa phim có kịch bản na ná như thế. Riêng Khen Phim thấy thì “Rider: Giao Hàng Cho Ma” nó không có đột phá về kịch bản, thẳng thắn mà nói thì nó quá cũ kỹ và dễ dàng đoán được cái kết. Nhưng thật may là sự hấp dẫn và đáng xem của phim đến từ câu chuyện tình cảm dễ thương giữa Nat và Pai, chính xác hơn là diễn xuất ăn ý của Mario Maurer và Freen Sarocha.</p>
+    <img src="movie/nước ngoài/Rider-Giao Hàng Cho Ma/Hình 2.jpg" alt="" class="anh">
+    <p class="doanvan">Nó tạo cho mình cảm giác tình yêu là như thế nào và sự ngại ngùng mỗi khi nhìn thấy người mình thương nó ra sao, một thứ cảm xúc khó diễn tả bằng lời lắm mọi người, ai trải qua rồi thì sẽ thấy "con tim tan chảy" luôn đó.</p>
+    <h2>Diễn xuất</h2>
+    <p class="doanvan">Ngoài việc cài cắm yếu tố tình cảm thì "Rider: Giao Hàng Cho Ma" còn ngập tràn những tình tiết hài hước, hài từ phần hành động cho đến những lời thoại Việt hóa trong bản lồng tiếng. Mario Maurer trong vai Nat diễn tròn vai, nhưng mảng hài thì anh chàng có vẻ hơi "nhạt". Bù lại, Freen Sarocha (vai Pai) lại thể hiện rất tốt, vừa đáng yêu, vừa có chiều sâu trong những phân cảnh cần thể hiện nội tâm. Đặc biệt, No Phuwanet Seechomphu (vai Sueayot/Yod) mới là "cây hài" chính của phim. Anh chàng diễn hài rất duyên, tự nhiên, không hề lố, mang đến những tràng cười sảng khoái.</p>
+    <img src="movie/nước ngoài/Rider-Giao Hàng Cho Ma/Hình 3.webp" alt="" class="anh">
+    <p class="doanvan">“Phản ứng hóa học” giữa Mario và Freen thì khỏi phải bàn, quá đỉnh! Họ diễn như không diễn, khiến mình tin rằng tình yêu giữa người và ma là hoàn toàn có thể. Nhiều review khác cũng khen ngợi chemistry của cặp đôi, thậm chí có người còn mong phim có phần tiếp theo để được thấy họ yêu nhau thêm nữa.</p>
+    <img src="movie/nước ngoài/Rider-Giao Hàng Cho Ma/Hình 4.jpg" alt="" class="anh">
+    <h2>Âm thanh, hình ảnh, kỹ xảo</h2>
+    <p class="doanvan">Vì là phim hài nên kỹ xảo của “Rider: Giao Hàng Cho Ma” không được đầu tư quá nhiều, nhưng vẫn đủ để tạo hiệu ứng, đặc biệt là cảnh các hồn ma biến mất khi bị rải gạo hoặc tụng kinh. Hình ảnh phim tươi sáng, phù hợp với không khí hài hước. Âm nhạc và hiệu ứng âm thanh cũng ở mức ổn, không có gì quá đặc biệt. Mấy pha hù dọa trong phim cũng không đáng sợ lắm, chủ yếu là để tạo tiếng cười thôi.</p>
+    <img src="movie/nước ngoài/Rider-Giao Hàng Cho Ma/Hình 5.webp" alt="" class="anh">
+    <p class="doanvan">Về khâu lồng tiếng Việt thì đôi chỗ bị "rớt miếng" vì không phù hợp với bối cảnh phim, thí dụ như "ăn giỗ bên cồn" chẳng hạn. Còn lại đa phần vẫn tạo được tiếng cười và khán giả vỗ tay hưởng ứng, không chỉ một lần mà rất nhiều lần.</p>
+    <h2>Chốt lại là có nên coi “Rider: Giao Hàng Cho Ma” không?</h2>
+    <p class="doanvan">Với thời lượng 104 phút, đây là một bộ phim giải trí tốt, mang đến những tiếng cười sảng khoái và những khoảnh khắc lãng mạn "rụng tim". Dù kịch bản không mới, nhưng nhờ diễn xuất duyên dáng của dàn diễn viên, đặc biệt là Freen Sarocha và No Phuwanet Seechomphu, phim vẫn đủ sức giữ chân khán giả ở lại phòng chiếu.</p>
+</section>
+<section class="footreview">
+    <div class="phandau" >
+        <p class="tenphim">Rider: Giao hàng cho ma</p>
+        <div class="diemtong">
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <img src="movie/nước ngoài/Rider-Giao Hàng Cho Ma/Hình 1.jpg" alt="" class="poster">
+    </div>
+    <p class="thanhphan">Nội dung</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            
+    </div>
+    <p class="thanhphan">Diễn viên và diễn xuất</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Âm thanh, hình ảnh, kĩ xảo</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+</section>
+
+<div class="gachngang"></div>
+<section class="binhluan">
+    <h3>Bình luận</h3>
+    <div class="form">
+      <textarea placeholder="Viết bình luận..." id="comment"></textarea>
+      <button onclick="addComment()">Gửi bình luận</button>
+    </div>
+    <div id="comment-list" class="comment-list"></div>
+  </section>
+  
+</body>
+</html>

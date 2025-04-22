@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHÊ PHIM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ===font.awesome===================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script language="Javascript">
+        function addComment() {
+  const commentInput = document.getElementById("comment");
+  const commentList = document.getElementById("comment-list");
+  const commentText = commentInput.value.trim();
+
+  if (commentText === "") {
+    alert("Bạn chưa nhập nội dung bình luận!");
+    return;
+  }
+  const commentItem = document.createElement("div");
+  commentItem.className = "comment-item";
+  commentItem.textContent = commentText;
+
+  commentList.prepend(commentItem); 
+
+  commentInput.value = "";
+}
+    </script>
+</head>
+<body>
+<header>
+    <a href="Trangchu.html">
+    <div class="logo">
+     <img src="Img/Logo001.jpg" alt="logo">
+     <div class="slogan">
+        <p>CHÊ PHIM</p>
+        <span>Xem xong phải chê – mới là đam mê!</span>
+     </div>
+    </div></a>
+    <div class="div-search-box">
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="search movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+          </form>
+    </div>
+    <div class="dn-dk">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i> Đăng ký</a></li>
+        </ul>
+    </div>
+</header>
+                                                                            
+<nav>
+    <ul class="submenu">
+        <li><a href="Trangchu.html">Trang chủ</a></li>
+        <li><a href="PhimViet.html">Phim Việt Nam</a></li>
+        <li><a href="Phimnuocngoai.html">Phim nước ngoài</a></li>
+        <li><a href="Vechungtoi.html">Về chúng tôi</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<!-- ===headreview============================================== -->
+ <section class="headreview">
+    <h3>Phim nước ngoài</h3>
+    <p class="title">Tay Nghiệp Dư: Xem vì Rami Malek, tiếc vì kịch bản!</p>
+ </section>
+<div class="gachngang"></div>
+<section class="bodyreview">
+    <p class="doanvan">The Amateur (tựa Việt: Tay Nghiệp Dư) là một bộ phim giật gân, hành động, gián điệp ra mắt năm 2025, do James Hawes đạo diễn và dựa trên tiểu thuyết cùng tên của Robert Littell.
+        Charles Heller (Rami Malek) vốn là "bộ não" lặng lẽ của CIA, chuyên giải mã những thông điệp bí mật. Cuộc sống của anh đảo lộn khi vợ - Sarah (Rachel Brosnahan) - trở thành nạn nhân trong vụ khủng bố tàn khốc ở London. Bất chấp sự phản đối từ cấp trên, Heller tự biến mình thành "cỗ máy trả thù", ép CIA đào tạo và trang bị vũ khí để săn lùng kẻ chủ mưu. Hành trình của anh không chỉ là cuộc chiến đẫm máu mà còn vạch trần những âm mưu chính trị đen tối, nơi ranh giới giữa bạn và thù trở nên mờ nhạt.
+        </p>
+    <img src="movie/nước ngoài/Tay Nghiệp Dư/Hình 1.jpg" alt="" class="anh">
+    <h2>Nội dung</h2>
+    <p class="doanvan">The Amateur là minh chứng cho thế mạnh của một kịch bản biết cách khai thác tối đa sức hút từ thể loại hành động gián điệp. Phim mở màn ấn tượng với tiền đề đầy tiềm năng: Một chuyên gia giải mã CIA – kẻ chưa từng cầm súng – buộc phải lao vào thế giới đẫm máu để trả thù cho vợ. Cách xây dựng nhân vật chính Charles Heller là điểm sáng: Anh không phải "siêu anh hùng" toàn năng, mà là một kẻ mộng mơ bị cuộc đời dồn vào chân tường. Sự chuyển hóa từ nỗi đau cá nhân sang hành động táo bạo được dẫn dắt khéo léo, đặc biệt ở những cảnh Heller dùng trí tuệ để giải mã âm mưu đen tối.</p>
+    <img src="movie/nước ngoài/Tay Nghiệp Dư/Hình 2.webp" alt="" class="anh">
+    <p class="doanvan">Phim thành công trong việc duy trì nhịp độ nhanh, liên tục chuyển cảnh từ London sang những điểm nóng chính trị, tạo cảm giác như một chuyến tàu lượn không phanh. Những phân cảnh hành động được tính toán kỹ lưỡng, như màn đột nhập trụ sở ngầm hay trận đấu trí với hacker phản diện, đều đem lại cảm giác "đã" đúng chất điện ảnh bom tấn. Đặc biệt, cú twist giữa phim về âm mưu chính trị tuy không quá bất ngờ, nhưng được cài cắm khéo léo, đủ sức khiến khán giả hồi hộp theo dõi.</p>
+    <p class="doanvan">Dù vậy, kịch bản vẫn có vài điểm khiến người xem tiếc nuối. Mối quan hệ giữa Heller và vợ anh (Rachel Brosnahan) dù là trung tâm của câu chuyện, lại thiếu những cảnh xây dựng cảm xúc đủ sâu. Vài tình tiết hành động, như Heller đánh bại đối thủ quá dễ dàng đôi lúc khiến phim mất đi độ tin cậy. Bên cạnh đó, dàn nhân vật phụ dù được thủ vai bởi nhiều diễn viên tên tuổi (Laurence Fishburne, Jon Bernthal) lại thiếu đất diễn, khiến họ trở nên mờ nhạt so với nhân vật chính.</p>
+    <img src="movie/nước ngoài/Tay Nghiệp Dư/Hình 3.webp" alt="" class="anh">
+    <h2>Diễn xuất</h2>
+    <p class="doanvan">Nếu phải chọn một thứ níu chân mình xem hết The Amateur, đó chắc chắn là Rami Malek. Chàng này diễn như thể đang đốt cháy từng phân cảnh bằng nội lực của một kẻ... "thiếu ngủ kinh niên". Ánh mắt trống rỗng, những cái liếc máy móc, cùng nụ cười méo mó đầy ám ảnh - Malek biến Charles Heller thành một con rối trui rèn, giật dây cảm xúc khán giả bằng sự lập dị có chủ đích. Cá nhân mình thấy cách anh thể hiện sự điên rồ có tính toán này khá thú vị, nhất là khi đặt cạnh những pha hành động đầy máu lạnh. Nhưng cũng phải thừa nhận: Nếu bạn không hợp gu diễn xuất "mặt đơ" kiểu Malek, sẽ dễ cảm thấy anh như một bản cover lỗi nhịp của nhân vật Elliot Alderson (Mr. Robot) chứ không phải một điệp viên đáng gờm.</p>
+    <p class="doanvan">Đáng tiếc, dàn diễn viên phụ - dù toàn sao chất lượng - lại bị xử lí như những món trang trí. Laurence Fishburne xuất hiện với vẻ uy quyền vốn có, nhưng vai diễn của ông bị bỏ mòn bởi kịch bản mỏng. Jon Bernthal (người luôn biết cách làm màn ảnh "bốc lửa" chỉ với một cái nhếch mép) cũng chỉ được... 5 phút tỏa sáng rồi biến mất đột ngột như chưa từng tồn tại. Rachel Brosnahan (vợ Heller) cố gắng thổi hồn vào vai diễn "người vợ quá cố" sáo rỗng, nhưng nỗ lực của cô chìm nghỉm giữa một cốt truyện vội vã.</p>
+    <img src="movie/nước ngoài/Tay Nghiệp Dư/Hình 4.jpg" alt="" class="anh">
+    <h2>Âm thanh, hình ảnh, kỹ xảo</h2>
+    <p class="doanvan">Về phần kỹ thuật, The Amateur giống như một chiếc bánh kem đẹp đẽ nhưng thiếu hương vị. Phim chăm chút từng khung hình với những cảnh quay góc rộng ngoạn mục, ánh sáng lạnh lẽo phủ lên London như một lời nhắc nhở về sự tàn nhẫn của thế giới ngầm. Âm nhạc thì là điểm cộng không thể chối bỏ, nó tạo ra thứ âm hưởng đúng chất spy thriller. Đặc biệt, cảnh sập bẫy ở bơi thực sự ấn tượng: Tiếng nước đổ như thác, kính vỡ văng tứ phía, kết hợp với góc máy quay đa dạng ở cả trên cao và dưới mặt đất - tất cả tạo nên phút cao trào đáng giá nhất phim.</p>
+    <p class="doanvan">Nhưng rồi mọi thứ vội vã kết thúc trong một màn đấu súng nhạt nhòa, như thể đạo diễn James Hawes đuối sức ở chặng cuối. Cá nhân mình tiếc nuối nhất là cách phim xử lí hậu kỳ: Dù CGI mượt mà, nhưng những cảnh hack não của Heller lại được minh họa bằng đống mã code lòe loẹt trên màn hình xanh - thứ mà phim hacker nào cũng dùng... chẳng ai tin nổi từ thập kỷ trước!</p>
+</section>
+<section class="footreview">
+    <div class="phandau" >
+        <p class="tenphim">Tay Nghiệp Dư</p>
+        <div class="diemtong">
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <img src="movie/nước ngoài/Tay Nghiệp Dư/Hình 1.jpg" alt="" class="poster">
+    </div>
+    <p class="thanhphan">Nội dung</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Diễn viên và diễn xuất</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Âm thanh, hình ảnh, kĩ xảo</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+</section>
+
+<div class="gachngang"></div>
+<section class="binhluan">
+    <h3>Bình luận</h3>
+    <div class="form">
+      <textarea placeholder="Viết bình luận..." id="comment"></textarea>
+      <button onclick="addComment()">Gửi bình luận</button>
+    </div>
+    <div id="comment-list" class="comment-list"></div>
+  </section>
+  
+</body>
+</html>

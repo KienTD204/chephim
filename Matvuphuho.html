@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHÊ PHIM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ===font.awesome===================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script language="Javascript">
+        function addComment() {
+  const commentInput = document.getElementById("comment");
+  const commentList = document.getElementById("comment-list");
+  const commentText = commentInput.value.trim();
+
+  if (commentText === "") {
+    alert("Bạn chưa nhập nội dung bình luận!");
+    return;
+  }
+
+  const commentItem = document.createElement("div");
+  commentItem.className = "comment-item";
+  commentItem.textContent = commentText;
+
+  commentList.prepend(commentItem);
+
+  commentInput.value = "";
+}
+    </script>
+</head>
+<body>
+<header>
+    <a href="Trangchu.html">
+    <div class="logo">
+     <img src="Img/Logo001.jpg" alt="logo">
+     <div class="slogan">
+        <p>CHÊ PHIM</p>
+        <span>Xem xong phải chê – mới là đam mê!</span>
+     </div>
+    </div></a>
+    <div class="div-search-box">
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="search movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+          </form>
+    </div>
+    <div class="dn-dk">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i> Đăng ký</a></li>
+        </ul>
+    </div>
+</header>
+                                                                            
+<nav>
+    <ul class="submenu">
+        <li><a href="Trangchu.html">Trang chủ</a></li>
+        <li><a href="PhimViet.html">Phim Việt Nam</a></li>
+        <li><a href="Phimnuocngoai.html">Phim nước ngoài</a></li>
+        <li><a href="Vechungtoi.html">Về chúng tôi</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<!-- ===headreview============================================== -->
+ <section class="headreview">
+    <h3>Phim nước ngoài</h3>
+    <p class="title">Mật vụ phụ hồ - Khi Jason Statham đi làm phụ hồ</p>
+ </section>
+<div class="gachngang"></div>
+<section class="bodyreview">
+    <p class="doanvan">A Working Man (2025), còn được biết đến với tên tiếng Việt là Mật Vụ Phu Hồ, là một tác phẩm hành động giật gân của Mỹ. Phim có sự tham gia của ngôi sao hành động Jason Statham trong vai chính, được đạo diễn bởi David Ayer và đồng biên kịch bởi Sylvester Stallone.</p>
+    <img src="movie/nước ngoài/Mật vụ phụ hồ/01.jpg" alt="" class="anh">
+    <p class="doanvan">Phim xoay quanh nhân vật Levon Cade (Jason Statham đóng) đã rời bỏ công việc nguy hiểm trước đây để làm công việc xây dựng và trở thành một người cha tốt của con gái mình. Nhưng khi một cô gái địa phương mất tích, anh được yêu cầu quay trở lại với những kỹ năng đã biến anh thành một nhân vật huyền thoại trong thế giới ngầm chống khủng bố. Cuộc săn lùng cô sinh viên đại học mất tích đã đưa anh vào sâu trong một âm mưu tội phạm nham hiểm, tạo ra một chuỗi phản ứng đe dọa cuộc sống mới của anh.
+        Nội dung phim không mới, dễ đoán và dựa vào những mô típ quen thuộc của thể loại hành động như báo thù chẳng hạn. Theo Khen Phim thấy thì Mật Vụ Phu Hồ ưu tiên các cảnh hành động hơn là một câu chuyện được xây dựng chặt chẽ, có khả năng hy sinh tính logic để tạo ra những pha hành động mãn nhãn, tức là vẫn mang lại sự giải trí cơ bản cho đối tượng khán giả mục tiêu của mình. Khán giả sẽ được xem Jason đấm nhau túi bụi, chơi dao thoọc tiết chảy tè re, quăng lựu đạn ầm ầm nổ banh xác mấy tên giang hồ; nói chung là về yếu tố hành động thì chắc chắn phim sẽ làm bạn thích thú với mức độ bạo lực cao, liên tục và được mô tả chi tiết.
+         </p>
+    <img src="movie/nước ngoài/Mật vụ phụ hồ/02.webp" alt="" class="anh">
+    <h2>Diễn xuất</h2>
+    <p class="doanvan">Về diễn xuất, khỏi phải nói nhiều, Jason Statham vẫn đảm nhận tốt vai diễn với nhiều cảnh hành động. Với gương mặt lạnh lùng, phong thái điềm tĩnh nhưng ra đòn thì cực kỳ dứt khoát và hiệu quả cho thấy anh vẫn "gánh team" cực tốt, thể hiện đúng chuẩn hình tượng anh hùng hành động mà khán giả vẫn yêu thích. À, có một điểm nhỏ vui là dù đóng vai người Mỹ làm thợ xây, nhưng Khen Phim nghe giọng anh vẫn giữ nguyên chất giọng Anh đặc trưng.</p>
+    <img src="movie/nước ngoài/Mật vụ phụ hồ/03.webp" alt="" class="anh">
+    <p class="doanvan">Phim còn có sự góp mặt của một vài gương mặt quen thuộc khác như David Harbour hay Michael Peña. Tuyến phản diện được xây dựng khá thú vị, có phần hơi lập dị, tạo ra những đối trọng cần thiết cho Statham, dù đôi lúc có thể bạn sẽ thấy hơi rập khuôn theo kiểu phim hành động cũ. Nhưng nhìn chung, họ hoàn thành vai trò của mình, giúp câu chuyện thêm phần kịch tính.</p>
+    <h2>Yếu tố kĩ thuật</h2>
+    <p class="doanvan">Về mặt nghe nhìn, Mật Vụ Phu Hồ làm khá tròn vai để phục vụ cho mục đích chính là hành động giải trí. Phần âm thanh ổn áp với các hiệu ứng cháy nổ, đấm đá đủ đã tai, tăng độ phê cho các cảnh combat. Nhạc nền cũng góp phần đẩy không khí, đôi khi mang lại cảm giác hơi hoài cổ của dòng phim hành động xưa. Phần hình ảnh cũng được chăm chút với các góc quay đa dạng. Điểm cộng là phim ưu tiên những pha hành động thực chiến, cận chiến tay đôi, đấu súng kiểu cũ hơn là lạm dụng kỹ xảo CGI, và tông màu phim có phần tối, gai góc, khá hợp với không khí căng thẳng chung. Tuy nhiên, có một điểm hơi tiếc là khâu dựng phim, nhất là trong các cảnh hành động, đôi lúc cảm thấy hơi "rời rạc", chưa mượt mà lắm so với The Beekeeper chẳng hạn, có thể nhịp phim hơi khựng lại đôi chút.</p>
+    <img src="movie/nước ngoài/Mật vụ phụ hồ/04.webp" alt="" class="anh">
+    <h2>Vậy phim có hay không?</h2>
+    <p class="doanvan">Với mình, Mật Vụ Phu Hồ (A Working Man) là một phim hành động giải trí ổn, xem được. Nó giống như một món ăn quen thuộc mà bạn biết chắc hương vị sẽ như thế nào: đậm chất Jason Statham, hành động liên tục, cốt truyện đơn giản dễ đoán. Phim không cố gắng tạo ra sự đột phá hay chiều sâu gì ghê gớm, mà tập trung vào việc mang lại những phút giây giải trí thuần túy với những pha đánh đấm, bắn giết mãn nhãn.
+        Có lẽ vì vậy mà khán giả đại chúng có vẻ thích phim này hơn giới phê bình quốc tế (điểm khán giả trên Rotten Tomatoes khá cao). Đơn giản vì chúng ta ra rạp xem phim Statham là để giải trí, để thấy độ "ngầu", chứ không hẳn để tìm kiếm một kịch bản hàn lâm. Nếu bạn đang tìm một phim để xả stress cuối tuần, không cần suy nghĩ nhiều thì đây là một lựa chọn không tồi.
+        </p>
+</section>
+<section class="footreview">
+    <div class="phandau" >
+        <p class="tenphim">Mật vụ phụ hồ</p>
+        <div class="diemtong">
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <img src="movie/nước ngoài/Mật vụ phụ hồ/01.jpg" alt="" class="poster">
+    </div>
+    <p class="thanhphan">Nội dung</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Diễn viên và diễn xuất</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Âm thanh, hình ảnh, kĩ xảo</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+</section>
+
+<div class="gachngang"></div>
+<section class="binhluan">
+    <h3>Bình luận</h3>
+    <div class="form">
+      <textarea placeholder="Viết bình luận..." id="comment"></textarea>
+      <button onclick="addComment()">Gửi bình luận</button>
+    </div>
+    <div id="comment-list" class="comment-list"></div>
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHÊ PHIM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ===font.awesome===================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script language="Javascript">
+        function addComment() {
+  const commentInput = document.getElementById("comment");
+  const commentList = document.getElementById("comment-list");
+  const commentText = commentInput.value.trim();
+
+  if (commentText === "") {
+    alert("Bạn chưa nhập nội dung bình luận!");
+    return;
+  }
+
+  const commentItem = document.createElement("div");
+  commentItem.className = "comment-item";
+  commentItem.textContent = commentText;
+
+  commentList.prepend(commentItem);
+
+  commentInput.value = "";
+}
+    </script>
+</head>
+<body>
+<header>
+    <a href="Trangchu.html">
+    <div class="logo">
+     <img src="Img/Logo001.jpg" alt="logo">
+     <div class="slogan">
+        <p>CHÊ PHIM</p>
+        <span>Xem xong phải chê – mới là đam mê!</span>
+     </div>
+    </div></a>
+    <div class="div-search-box">
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="search movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+          </form>
+    </div>
+    <div class="dn-dk">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i> Đăng ký</a></li>
+        </ul>
+    </div>
+</header>
+                                                                            
+<nav>
+    <ul class="submenu">
+        <li><a href="Trangchu.html">Trang chủ</a></li>
+        <li><a href="PhimViet.html">Phim Việt Nam</a></li>
+        <li><a href="Phimnuocngoai.html">Phim nước ngoài</a></li>
+        <li><a href="Vechungtoi.html">Về chúng tôi</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<!-- ===headreview============================================== -->
+ <section class="headreview">
+    <h3>Phim Việt</h3>
+    <p class="title">Bộ Tứ Báo Thủ - Có hài, có drama tình cảm</p>
+ </section>
+<div class="gachngang"></div>
+<section class="bodyreview">
+    <p class="doanvan">Bộ Tứ Báo Thù là phim Tết do Trấn Thành trực tiếp làm đạo diễn cũng như tham gia diễn xuất. Với kịch bản tập trung đa phần hài để phù hợp chiếu Tết, liệu phim có gì đột phá để thu hút khán giả dịp lễ lớn nhất trong năm này. Mời mọi người cùng Khen Phim tìm hiểu.</p>
+    <img src="movie/Phim Việt Nam/Bộ Tứ Báo Thủ/Hình 1.jpg" alt="" class="anh">
+    <p class="doanvan">Phim xoay quanh chuyện tình cảm giữa Quốc Anh (Quốc Anh) và Quỳnh Anh (Tiểu Vy), tình cảm. Nhận ra điều này, Quỳnh Anh lên kế hoạch hâm nóng mối quan hệ của mình, với sự quân sư giúp đỡ Bộ tứ thân thiết gồm Di 4 (Lê Giang), Cậu 11 (Trấn Thành), Kiều (Uyển Ân) và Jessica (Lê Dương Bảo Lâm). Tuy nhiên hành trình "nối lại tình xưa" có vẻ hơi gian nan khi xuất hiện thêm một biến số bí ẩn là nhân vật do Nguyên Cao Kỳ Duyên đóng.</p>
+    <img src="movie/Phim Việt Nam/Bộ Tứ Báo Thủ/Hình 2.webp" alt="" class="anh">
+    <p class="doanvan">Bộ Tứ Báo Thù chủ yếu là tấu hài, đa phần đến từ Lê Dương Bảo Lâm với những câu thoại và hành động chọc cười. Đúng là khán giả có cười, và mình công nhận là mảng miếng hài trong phim vẫn đủ tốt để khán giả ít xem phim cảm thấy hào hứng, còn với những người xem quá nhiều phim như mình thì mức độ gây cười chỉ đạt một nửa so với kỳ vọng. Thông tin thêm là mình đã xem hơn 1300 bộ phim tính từ 2015, và nếu tính từ lúc bắt đầu đi xem phim ở rạp (2011) thì con số ước chừng gần 2000 đầu phim. Mình muốn có sự đột phá hơn nữa về cách đưa miếng hài đến khán giả, và kết hợp nhiều nhân tố nữa thay vì chỉ để mỗi Lê Dương Bảo Lâm gánh. Mặc dù tên phim là Bộ Tứ Báo Thù nhưng trong phim họ không phải là nhân vật chính, tất cả chỉ là tuyến phụ để làm bật lên câu chuyện giữa Quốc Anh và Tiểu Vy.</p>
+    <img src="movie/Phim Việt Nam/Bộ Tứ Báo Thủ/Hình 3.webp" alt="" class="anh">
+    <p class="doanvan">Thế nhưng may mắn là mình cảm thấy ưng ý với câu chuyện tình cảm trong phim, khi hoa hậu Tiểu Vy đã cho khán giả thấy rõ được một người phụ nữ khi yêu và muốn hết lòng bảo vệ hạnh phúc của mình thì cô ta sẽ hành động ra sao để làm điều đó. Mà cũng thật tế khi nhân vật Quỳnh Anh đã phải đối đầu với một đối thủ nặng ký do Kỳ Duyên thủ vai. Kèo này có vẻ không cân, và chính cái không cân đó mới nảy sinh ra drama để mà khán giả chúng ta xem. Nói chung là về thông điệp tình cảm thì Bộ Tứ Báo Thù làm tốt, tròn trịa và không bị lấn cấn gì hết, cách giải quyết làm hài lòng khán giả là điều chắc chắn.</p>
+    <img src="movie/Phim Việt Nam/Bộ Tứ Báo Thủ/Hình 4.jpg" alt="" class="anh">
+    <p class="doanvan">Tóm lại, Bộ Tứ Báo Thù là phim hài an toàn, không đột phá, thời lượng quá dài, nhiều quảng cáo và phù hợp với đối tượng khán giả muốn cười thật đã dịp Tết này.</p>
+</section>
+<section class="footreview">
+    <div class="phandau" >
+        <p class="tenphim">Bộ tứ báo thủ</p>
+        <div class="diemtong">
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            
+        </div>
+        <img src="movie/Phim Việt Nam/Bộ Tứ Báo Thủ/Hình 1.jpg" alt="" class="poster">
+    </div>
+    <p class="thanhphan">Nội dung</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Diễn viên và diễn xuất</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+    <p class="thanhphan">Âm thanh, hình ảnh, kĩ xảo</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+</section>
+
+<div class="gachngang"></div>
+<section class="binhluan">
+    <h3>Bình luận</h3>
+    <div class="form">
+      <textarea placeholder="Viết bình luận..." id="comment"></textarea>
+      <button onclick="addComment()">Gửi bình luận</button>
+    </div>
+    <div id="comment-list" class="comment-list"></div>
+  </section>
+  
+</body>
+</html>

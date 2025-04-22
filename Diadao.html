@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHÊ PHIM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ===font.awesome===================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script language="Javascript">
+        function addComment() {
+  const commentInput = document.getElementById("comment");
+  const commentList = document.getElementById("comment-list");
+  const commentText = commentInput.value.trim();
+
+  if (commentText === "") {
+    alert("Bạn chưa nhập nội dung bình luận!");
+    return;
+  }
+
+  const commentItem = document.createElement("div");
+  commentItem.className = "comment-item";
+  commentItem.textContent = commentText;
+
+  commentList.prepend(commentItem);
+
+  commentInput.value = "";
+}
+    </script>
+</head>
+<body>
+<header>
+    <a href="Trangchu.html">
+    <div class="logo">
+     <img src="Img/Logo001.jpg" alt="logo">
+     <div class="slogan">
+        <p>CHÊ PHIM</p>
+        <span>Xem xong phải chê – mới là đam mê!</span>
+     </div>
+    </div></a>
+    <div class="div-search-box">
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="search movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+          </form>
+    </div>
+    <div class="dn-dk">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i> Đăng ký</a></li>
+        </ul>
+    </div>
+</header>
+                                                                            
+<nav>
+    <ul class="submenu">
+        <li><a href="Trangchu.html">Trang chủ</a></li>
+        <li><a href="PhimViet.html">Phim Việt Nam</a></li>
+        <li><a href="Phimnuocngoai.html">Phim nước ngoài</a></li>
+        <li><a href="Vechungtoi.html">Về chúng tôi</a></li>
+    </ul>
+</nav>
+<br><br>
+
+<!-- ===headreview============================================== -->
+ <section class="headreview">
+    <h3>Phim Việt</h3>
+    <p class="title">Địa Đạo: Mặt Trời Trong Bóng Tối(Tunnel) </p>
+ </section>
+<div class="gachngang"></div>
+<section class="bodyreview">
+    <p class="doanvan">Địa Đạo: Mặt Trời Trong Bóng Tối (Địa Đạo/Tunnel) là phim của đạo diễn Bùi Thạc Chuyên lấy đề tài lịch sử hào hùng của dân tộc Việt Nam và đưa lên màn ảnh rộng, tái hiện cuộc chiến chống Mỹ đầy khó khăn, gian khổ của ông cha ta.
+        Địa Đạo lấy một khoảng thời gian ngắn trong lịch sử đấu tranh giành lại tự do và độc lập của nước ta. Nội dung xoay quanh một nhóm du kích 21 người bám trụ ở địa đạo Củ Chi ngay sau trận càn Cedar Falls 1967 khốc liệt, nhóm du kích này do Bảy Theo (do Thái Hòa thủ vai) làm đội trưởng. Nhiệm vụ của họ không hề đơn giản: bảo vệ địa bàn cho nhóm thông tin tình báo chiến lược. Trong lúc đó, mối tình giữa cô du kích Ba Hương (Hồ Thu Anh đóng) và Tư Đạp (Quang Tuấn) được tái hiện khá chân thật giữa thời chiến, bao gồm cả cảnh nóng đầy dụng ý.
+        </p>
+    <img src="movie/Phim Việt Nam/Địa Đạo/Hình 1.webp" alt="" class="anh">
+    <p class="doanvan">đây là phim chiến tranh cuốn hút, căng thẳng và khơi gợi được cảm giác hào hùng trong mình. Ban đầu phim nhịp phim khá tốn với hình ảnh cuộc sống của những người ở lại địa đạo làm nhiệm vụ, từ sự thiếu thốn không gian sinh hoạt cho đến nhu yếu phẩm, cho đến cả sự vắng bóng của tình cảm đôi lứa. May mắn được sinh ra, lớn lên ở thời bình nên mình rất biết ơn thế hệ đi trước đã dùng cả mồ hôi, cả xương máu nhằm dựng xây nền hòa bình ngày nay mà con cháu được hưởng. Tựa phim Địa Đạo đã tái hiện cực kỳ chân thực những điều đó, nhất là sự mất mát về con người được làm rõ, với cảnh lính du kích phải đau đớn nhìn đồng đội bị địch dội bom, nã đạn và hy sinh trong anh dũng.</p>
+    <img src="movie/Phim Việt Nam/Địa Đạo/Hình 2.jpg" alt="" class="anh">
+    <p class="doanvan">Thêm nữa, chính sự đầu tư về bối cảnh đã khiến phim trở nên chân thật hơn bao giờ hết. Ekip đã dựng lại một phần địa đạo Củ Chi trong phim trường để thuận tiện cho việc sử dụng các thiết bị ghi hình. Thế nhưng đa phần bối cảnh vẫn ở thực địa, khiến diễn viên phải chịu cực khổ rất nhiều. Người xem sẽ được thấy Quang Tuấn gầy đi chỉ còn da bọc xương, nhưng anh vẫn kiên cường trong ý chí, cũng như vận dụng sự sáng tạo để làm ra món vũ khí mới mang tính sát thương cao hơn, tiêu diệt được nhiều lính Mỹ thời đó hơn.</p>
+    <img src="movie/Phim Việt Nam/Địa Đạo/Hình 3.webp" alt="" class="anh">
+    <p class="doanvan">Việc dàn diễn viên từ vai chính đến vai phụ phải lăn lê bò trườn từ dưới nước lên bờ, rồi chui vào địa đạo vô cùng chật hẹp đã giúp tái hiện lại những ngày tháng gian khổ của cha ông ta, đồng thời thể hiện tinh thần hết mình vì nghệ thuật.
+        Lời thoại trong phim Địa Đạo gần như không có sự e dè, diễn viên được thoại những câu đúng chất văn nói, bao gồm cả những từ chửi thề phổ biến trong tiếng Việt. Diễn viên Thái Hòa chính là người thoại những câu này nhiều nhất và nó phần nào cũng cho thấy sự khắc nghiệt của cuộc chiến, đôi khi không phải lúc nào kế hoạch tác chiến cũng thành công như mong đợi. Điều tiếp theo mà khán giả có thể sẽ thảo luận sau khi ra rạp xem phim, đó là cảnh nóng giữa nhân vật Ba Hương và Tư Đạp, trong lúc bom rơi đạn lạc họ trú dưới một chiếc bàn, trùm chăn và cảnh nóng đã diễn ra tại đó, với gần như phần trên của diễn viên được thể hiện theo kiểu giống như đang không mặc áo. Khen Phim thấy cảnh nóng này nhẹ nhàng và hợp hoàn cảnh, không bị thô như các phim chiến tranh khác.
+        </p>
+    <img src="movie/Phim Việt Nam/Địa Đạo/Hình 4.webp" alt="" class="anh">
+    <p class="doanvan">Lần đầu tiên trong 2 năm qua, Khen Phim cảm thấy hài lòng với một tựa phim lịch sử Việt Nam, không chỉ là bởi diễn xuất tốt, mà hiệu ứng hình ảnh cũng được chăm chút kỹ lưỡng. Bạn sẽ thấy xe tăng, máy bay địch di chuyển khắp một vùng rộng lớn, chúng ném bom, thả khí độc hay bơm nước vào địa đạo với tần suất dày đặc, tạo cảm giác rằng quân địch cũng không phải là những kẻ yếu đuối, qua đó khắc họa sự khắc nghiệt của thời chiến và tô đậm ý nghĩa của nền độc lập mà chúng ta đang được hưởng. Âm thanh trong phim cũng xịn xò với tiếng động được định hướng tốt, tiếng cháy nổ có lực, kèm với âm nhạc hào hùng đã tạo ra những thước phim khó quên cho khán giả.</p>
+    <img src="movie/Phim Việt Nam/Địa Đạo/Hình 5.jpg" alt="" class="anh">
+    <p class="doanvan">Tóm lại thì Địa Đạo là một tựa phim về lịch sử và chiến tranh mà bạn phải xem, với sự đầu tư như thế này trở lên thì phim lịch sử Việt Nam sẽ ngày càng có chỗ đứng trong thị trường và điều quan trọng hơn là giúp đưa lịch sử đến gần với giới trẻ hơn, theo cách dễ hiểu, dễ nhớ hơn những tiết học lịch sử đơn thuần.</p>
+</section>
+<section class="footreview">
+    <div class="phandau" >
+        <p class="tenphim">Địa đạo</p>
+        <div class="diemtong">
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+        </div>
+        <img src="movie/Phim Việt Nam/Địa Đạo/Hình 1.webp" alt="" class="poster">
+    </div>
+    <p class="thanhphan">Nội dung</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+    </div>
+    <p class="thanhphan">Diễn viên và diễn xuất</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+            <i class="fa-solid fa-star" ></i>
+    </div>
+    <p class="thanhphan">Âm thanh, hình ảnh, kĩ xảo</p>
+    <div class="diemthanhphan">
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+        <i class="fa-solid fa-star" ></i>
+    </div>
+</section>
+
+<div class="gachngang"></div>
+<section class="binhluan">
+    <h3>Bình luận</h3>
+    <div class="form">
+      <textarea placeholder="Viết bình luận..." id="comment"></textarea>
+      <button onclick="addComment()">Gửi bình luận</button>
+    </div>
+    <div id="comment-list" class="comment-list"></div>
+  </section>
+  
+</body>
+</html>
